@@ -1,6 +1,7 @@
 # Parcial 2 Programacion Mutantes
 + Nombre y Apellido: Franco Agustin Albornoz
-+ Legajo:
++ Legajo: 51474
++ Email Escolar: francoa.albornoz@alumnos.frm.utn.edu.ar
 + Email: franquito45@live.com
 ## Proyecto Mutantes
 El proyecto consiste en desarrollar un programa que pueda detectar si un humano es mutante basándose en su secuencia de ADN.
