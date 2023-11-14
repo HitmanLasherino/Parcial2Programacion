@@ -13,6 +13,8 @@ La función isMutant verifica si hay más de una secuencia de 4 letras iguales e
 Además, se creó un bucle que solicita al usuario que ingrese 6 secuencias de ADN. Si la secuencia ingresada es válida (es decir, contiene solo las letras A, T, G, C y tiene una longitud de 6), la secuencia se agrega a la lista dna. Si la secuencia no es válida, el programa solicita al usuario que ingrese una nueva secuencia.
 ## Como correrlo
 Para correr el programa, simplemente necesitas tener Python instalado en tu computadora. Luego, puedes copiar y pegar el código en un archivo .py y ejecutarlo desde la línea de comandos. El programa te pedirá que ingreses las secuencias de ADN una por una. Después de ingresar las 6 secuencias, el programa te dirá si el ADN es de un mutante o de una persona normal.
+Caso mutante:{"ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"};
+Caso no mutante: {"ATGCGA","CAGTGC","TTATTT","AGACGG","GCGTCA","TCACTG"};
 ```
 def isMutant(dna):
     count = 0
