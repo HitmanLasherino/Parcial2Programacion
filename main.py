@@ -1,5 +1,5 @@
 def isMutant(dna):
-    contadorDeCoincidencia = 0
+    count = 0
     for i in range(6):
         for j in range(3):
             if dna[i][j] == dna[i][j+1] == dna[i][j+2] == dna[i][j+3]:
